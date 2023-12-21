@@ -65,6 +65,14 @@
       .spec_table td {
         letter-spacing: 1%; /* 원하는 간격으로 설정 */
       }
+      .image_and_text_container {
+        display: flex;
+        align-items: center;
+      }
+
+      .image_and_text_container .text_container {
+        margin-left: 10px;
+      }
     </style>
     <script src="http://www.nfeco.co.kr/js/jquery-1.12.4.min.js?ver=191202"></script>
     <script src="http://www.nfeco.co.kr/js/jquery-migrate-1.4.1.min.js?ver=191202"></script>
@@ -103,57 +111,54 @@
         </div>
 
         <div class="products_spec_description">
-          <div class="pdt_pics">
-            <img src="img/개인용.png" alt="moss150" />
-          </div>
-          <div class="spec_table">
-            <div class="spec_table_wrap bg_white">
-              <table>
-                <colgroup>
-                  <col width="35%" />
-                  <col width="65%" />
-                </colgroup>
+          <div class="image_and_text_container">
+            <div class="pdt_pics">
+              <img src="img/개인용.png" alt="moss150" />
+            </div>
+            <div class="spec_table">
+              <div class="spec_table_wrap bg_white">
+                <table>
+                  <tr>
+                    <th scope="row">산소순도 :</th>
+                    <td>
+                      1단 : 90% | 2단 : 78% | 3단 : 65% | 4단 : 53% | 5단 : 40%
+                    </td>
+                  </tr>
 
-                <tr>
-                  <th scope="row">산소순도</th>
-                  <td>
-                    1단 : 90% | 2단 : 78% | 3단 : 65% | 4단 : 53% | 5단 : 40%
-                  </td>
-                </tr>
+                  <tr>
+                    <th scope="row">산소유량</th>
+                    <td>
+                      1단 : 1 L | 2단 : 1.5 L | 3단 : 2 L | 4단 : 2.5 L | 5단 :
+                      3 L
+                    </td>
+                  </tr>
 
-                <tr>
-                  <th scope="row">산소유량</th>
-                  <td>
-                    1단 : 1 L | 2단 : 1.5 L | 3단 : 2 L | 4단 : 2.5 L | 5단 : 3
-                    L
-                  </td>
-                </tr>
+                  <tr>
+                    <th scope="row">사용온도</th>
+                    <td>-15~45℃</td>
+                  </tr>
 
-                <tr>
-                  <th scope="row">사용온도</th>
-                  <td>-15~45℃</td>
-                </tr>
+                  <tr>
+                    <th scope="row">사용전압</th>
+                    <td>220 VAC/60hz</td>
+                  </tr>
 
-                <tr>
-                  <th scope="row">사용전압</th>
-                  <td>220 VAC/60hz</td>
-                </tr>
+                  <tr>
+                    <th scope="row">소비전력</th>
+                    <td>0.125kw/h</td>
+                  </tr>
 
-                <tr>
-                  <th scope="row">소비전력</th>
-                  <td>0.125kw/h</td>
-                </tr>
+                  <tr>
+                    <th scope="row">제품무게</th>
+                    <td>약 7.9kg</td>
+                  </tr>
 
-                <tr>
-                  <th scope="row">제품무게</th>
-                  <td>약 7.9kg</td>
-                </tr>
-
-                <tr>
-                  <th scope="row">제품크기</th>
-                  <td>235*225*545(mm)</td>
-                </tr>
-              </table>
+                  <tr>
+                    <th scope="row">제품크기</th>
+                    <td>235*225*545(mm)</td>
+                  </tr>
+                </table>
+              </div>
             </div>
           </div>
         </div>

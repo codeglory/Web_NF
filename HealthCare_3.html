@@ -65,6 +65,13 @@
       .spec_table td {
         letter-spacing: 1%; /* 원하는 간격으로 설정 */
       }
+      .image_and_text_container {
+        display: flex;
+        align-items: center;
+      }
+      .image_and_text_container .text_container {
+        margin-left: 10px;
+      }
     </style>
     <script src="http://www.nfeco.co.kr/js/jquery-1.12.4.min.js?ver=191202"></script>
     <script src="http://www.nfeco.co.kr/js/jquery-migrate-1.4.1.min.js?ver=191202"></script>
@@ -103,6 +110,7 @@
         </div>
 
         <div class="products_spec_description">
+          <div class="image_and_text_container">
           <div class="pdt_pics">
             <img src="img/Oxyspa_2.png" alt="moss150" />
           </div>
